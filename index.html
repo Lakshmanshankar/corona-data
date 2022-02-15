@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>real time data visualization</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <script src="app.js"></script>
+    <script src="chart.js"></script>
+    <script src="html2canvas.js"></script>
+    <div class="pandemic">
+        <blockquote>COVID 19 CORONA PANDEMIC</blockquote>
+    </div>
+    <div class="head">
+        <img src="./images/logo.png" />
+        <h2>Canada</h2>
+    </div>
+    <div class="totalcases">
+        <h3>Coronavirus Cases</h3>
+        <h4 id="totalnumbers"></h4>
+    </div>
+    <div class="totaldeaths">
+        <h5>Deaths</h5>
+        <h6 id="totaldeaths"></h6>
+    </div>
+
+    <button onclick="caller()" id="buttong">Get Graphs</button>
+    <div class="chartbox">
+        <div id="construct">
+            <p id="p1">bar Graphs</p>
+            <canvas id="canvas" width="200" height="100"></canvas>
+        </div>
+        <div class="chart2cont" id="chart2cont">
+            <p id="p2">line Graphs</p>
+            <canvas id="canvas2" width="200" height="100"></canvas>
+        </div>
+        <div class="chart3cont" id="chart3cont">
+            <p id="p3">polar Graphs</p>
+            <canvas id="canvas3" width="200" height="100"></canvas>
+        </div>
+    </div>
+    <div class="footer">
+        <blockquote id="p4" class="headtable">
+            Corona case by Provinces
+        </blockquote>
+        <table>
+            <th>Provinces</th>
+            <th>Infected</th>
+            <th>Deaths</th>
+
+            <tr id="tablerows1">
+                <td id="PROVINCE1"></td>
+                <td id="INCREASE1"></td>
+                <td id="DEATH1"></td>
+            </tr>
+            <tr id="tablerows2">
+                <td id="PROVINCE2">Pes</td>
+                <td id="INCREASE2">I</td>
+                <td id="DEATH2">s</td>
+            </tr>
+
+            <tr id="tablerows3">
+                <td id="PROVINCE3">Pes</td>
+                <td id="INCREASE3">I</td>
+                <td id="DEATH3">s</td>
+            </tr>
+            <tr id="tablerows4">
+                <td id="PROVINCE4">Pes</td>
+                <td id="INCREASE4">I</td>
+                <td id="DEATH4">s</td>
+            </tr>
+            <tr id="tablerows5">
+                <td id="PROVINCE5">Pes</td>
+                <td id="INCREASE5">I</td>
+                <td id="DEATH5">s</td>
+            </tr>
+            <tr id="tablerows6">
+                <td id="PROVINCE6">Pes</td>
+                <td id="INCREASE6">I</td>
+                <td id="DEATH6">s</td>
+            </tr>
+            <tr id="tablerows7">
+                <td id="PROVINCE7">Pes</td>
+                <td id="INCREASE7">I</td>
+                <td id="DEATH7">s</td>
+            </tr>
+            <tr id="tablerows8">
+                <td id="PROVINCE8">Pes</td>
+                <td id="INCREASE8">I</td>
+                <td id="DEATH8">s</td>
+            </tr>
+            <tr id="tablerows9">
+                <td id="PROVINCE9">Pes</td>
+                <td id="INCREASE9">I</td>
+                <td id="DEATH9">s</td>
+            </tr>
+            <tr id="tablerows10">
+                <td id="PROVINCE10">Pes</td>
+                <td id="INCREASE10">I</td>
+                <td id="DEATH10">s</td>
+            </tr>
+            <tr id="tablerows11">
+                <td id="PROVINCE11">Pes</td>
+                <td id="INCREASE11">I</td>
+                <td id="DEATH11">s</td>
+            </tr>
+            <tr id="tablerows12">
+                <td id="PROVINCE12">Pes</td>
+                <td id="INCREASE12">I</td>
+                <td id="DEATH12">s</td>
+            </tr>
+            <tr id="tablerows13">
+                <td id="PROVINCE13">Pes</td>
+                <td id="INCREASE13">I</td>
+                <td id="DEATH13">s</td>
+            </tr>
+        </table>
+    </div>
+    <script>
+        var ctx = document.getElementById("canvas").getContext("2d");
+
+        function caller() {
+            //getchart(ctx);
+            get_canvas(ctx);
+        }
+    </script>
+</body>
+
+</html>

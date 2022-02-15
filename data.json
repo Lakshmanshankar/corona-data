@@ -1,0 +1,86 @@
+{
+    "infected": 2947179,
+    "deceased": 32786,
+    "infectedByRegion": [{
+            "region": "Canada",
+            "infectedCount": "2947179",
+            "deceasedCount": "32786"
+        },
+        {
+            "region": "Newfoundland and Labrador",
+            "infectedCount": "15515",
+            "deceasedCount": "31"
+        },
+        {
+            "region": "Prince Edward Island",
+            "infectedCount": "6282",
+            "deceasedCount": "8"
+        },
+        {
+            "region": "Nova Scotia",
+            "infectedCount": "35051",
+            "deceasedCount": "131"
+        },
+        {
+            "region": "New Brunswick",
+            "infectedCount": "26391",
+            "deceasedCount": "212"
+        },
+        {
+            "region": "Quebec",
+            "infectedCount": "838437",
+            "deceasedCount": "12851"
+        },
+        {
+            "region": "Ontario",
+            "infectedCount": "1001455",
+            "deceasedCount": "11004"
+        },
+        {
+            "region": "Manitoba",
+            "infectedCount": "116133",
+            "deceasedCount": "1515"
+        },
+        {
+            "region": "Saskatchewan",
+            "infectedCount": "110399",
+            "deceasedCount": "975"
+        },
+        {
+            "region": "Alberta",
+            "infectedCount": "475119",
+            "deceasedCount": "3470"
+        },
+        {
+            "region": "British Columbia",
+            "infectedCount": "313076",
+            "deceasedCount": "2553"
+        },
+        {
+            "region": "Yukon",
+            "infectedCount": "2959",
+            "deceasedCount": "16"
+        },
+        {
+            "region": "Northwest Territories",
+            "infectedCount": "4962",
+            "deceasedCount": "15"
+        },
+        {
+            "region": "Nunavut",
+            "infectedCount": "1387",
+            "deceasedCount": "5"
+        },
+        {
+            "region": "Repatriated travellers",
+            "infectedCount": "13",
+            "deceasedCount": "0"
+        }
+    ],
+    "country": "Canada",
+    "moreData": "https://api.apify.com/v2/key-value-stores/fabbocwKrtxSDf96h/records/LATEST?disableRedirect=true",
+    "historyData": "https://api.apify.com/v2/datasets/ji95MgtBVgGJF7XcP/items?format=json&clean=1",
+    "SOURCE_URL": "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html",
+    "lastUpdatedAtApify": "2022-01-26T08:00:53.000Z",
+    "readMe": "https://apify.com/lukass/covid-cad"
+}
